@@ -1,0 +1,458 @@
+
+body {font-family: "SF Pro Display Regular"; color: #57589f; font-size: 16px; font-weight: 300}
+
+
+
+header {background-image: linear-gradient(to right, #3c3d6f, #414278, #464781, #4b4c8a, #505193, #555699, #5a5b9e, #5f60a4, #6566a8, #6b6cab, #7273af, #7879b2); color:#FFFFFF}
+ 
+header a{color: #FDFDDF}
+
+header h4{font-size: 20px}
+header .row{height: 95px}
+.conexion_logo{width: 85% ; padding: 12% 0%}
+h1{font-weight: 700;}
+
+.fondocarrusel{background-color: rgba(212,201,188,1.00)}
+.buscador{padding: 3.2% 2%}
+
+.lupa{width: 10%; float: left; margin-right:2%}
+
+.usericon{width: 15%; float: left; margin-right: 5%}
+
+.entraryregistrar{padding: 4% 2%}
+
+.formulario1 {width: 260px; height: 3%; background-color: transparent; border-color: #FDFDDF; border: solid #FDFDDF 2px; border-radius: 7px; color:#FDFDDF; font-size: 20px; float: right}
+
+
+.carrito{width: 18%; margin: 5% 8% 8% 2%}
+
+
+
+.btncarrito{color: #ffffff; background-color: transparent; border: #FDFDD; border-width: 1.5px; border-style: solid; height: 42px; width: 100%; font-size: 15px; border-radius: 7px; text-align: center; vertical-align: middle; padding-top: 3px}
+
+
+.btncarrito:hover{background-color: hsla(31,22%,78%,1.00); font-size: 16px; border-width: 3px; color: #FDFDDF; text-decoration: none }
+
+#destacados p, h5{color: #57589f }
+.vl {
+  border-left: 1px; background-color: #FDFDDF;
+  height: 30px; width: 1%; float: left; margin: auto 8px
+}
+
+.alineado {align-items: center; justify-content: center; display: flex}
+header h4{color: #FDFDDF; margin-top: 2px}
+
+
+.beneficio{
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	text-align: center;
+	
+}
+
+#iconos{margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.titulovale{
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	text-align: center;
+	padding: 10px 0;
+	
+}
+
+.bordeofertas{
+	border: 1px solid #3c3d6f;
+	border-radius: 5px;
+	padding-bottom: 40px;
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 30px;
+}
+#destacados p{margin-top: 15px}
+#destacados h5{font-weight: 1000; font-size: 25px}
+
+#banner{background-color: #d4c9bc}
+#banner .container{background-color:#f2f2f2;
+	background-image: url("../img/header/0.5x/Recurso 49@0.5x.png"); background-size: cover; background-position: center; background-repeat: no-repeat;
+	padding: 15% 0% } 
+
+
+	
+#marcasdestacadas h2{
+	margin-top: 50px;
+	margin-bottom:50px;
+	font-family:"SF Pro Display Medium";
+	font-size: 25px;
+	line-height: 20px;
+	
+}
+
+.boton{
+	margin-top: 50px;
+	margin-bottom: 30px;
+	margin-left: 50px;
+
+	
+}
+	
+
+h1{font-weight: 700}
+
+#ofertas {
+	background-color:#57589f;
+	color:#f2f2f2;
+	
+}
+.botonsection {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	
+	
+}
+
+#Ofertas {
+	padding: 0px 0;
+	
+}
+
+.formulario2 {width: 180px; height: 5%; background-color: transparent; border-color: #FDFDDF; border: solid #FDFDDF 2px; border-radius: 7px; color:#FDFDDF; font-size: 20px; float: right; margin-left: 3px }
+
+#ofertas h2 {
+	margin-top: 35px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family:"SF Pro Display Medium";
+	font-size: 15px;
+	line-height: 20px;
+	
+}
+#ofertas h3 {
+	margin-top: 40px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	font-family:"SF Pro Display Medium";
+	font-size: 18px; float: left
+	}
+#ofertas h4 {
+	margin-top: 11px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	font-family:"SF Pro Display Medium";
+	font-size: 17px;
+	line-height: 20px; float: right; font-weight: 200
+	}
+#Contacto {
+	background-color:#57589f;
+	color:#f2f2f2;
+	padding-top: 1px; padding-bottom: px
+	}
+#Contacto h4 {
+	font-size: 19px;
+	text-align: justify;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	
+	
+}
+
+#Contacto p {
+	font-size: 14px;
+	text-align:left;
+	margin-left: 0px;
+	margin-bottom: 1px;
+	color: #f2f2f2;
+	
+	
+}
+
+#Contacto a {
+	font-size: 14px;
+	text-align:left;
+	margin-left: 0px;
+	margin-bottom: 1px;
+	color: #f2f2f2;
+	
+	
+}
+#Contacto p:hover{text-decoration: underline; color: #f2f2f2;}
+
+.contactop {
+	color: #fff;
+}
+
+::placeholder {
+  color: #f2f2f2 ; font-size: 16px; font-style: italic; margin-left: 20px; font-weight: 50; padding-left: 10px; padding-bottom: 3px
+}
+
+.slideindicators{background: rgba(0,0,0,1.00)}
+
+.list-inline{margin: 0px 10px}
+
+#marcasdestacadas{background-color: #57589f; color: #FDFDFD}
+
+#ofertas .list-inline{margin: 0px 0px auto; float: left; padding-top: 28px}
+.input {
+	margin-top: 35px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+	
+}
+
+.menustyle{background-image: linear-gradient(to right, #3c3d6f, #414278, #464781, #4b4c8a, #505193, #555699, #5a5b9e, #5f60a4, #6566a8, #6b6cab, #7273af, #7879b2); align-content: center; color:#FFFFFF; display: flex; justify-content: center; align-items: center; text-decoration: none}
+
+footer h4{font-weight: 800}
+footer p{font-weight: 400}
+
+.imgfooter{text-align: center; padding: 8px 0px}
+
+		
+
+.img-tv{
+	padding:100px 0;
+
+	}
+
+#marcas{
+text-align: center;
+font-family:"SF Pro Display Regular";
+margin-top:20px;
+margin-bottom: 25px;
+font-size:25px;
+}
+
+#smart{
+background-color: #d4c9bc;
+padding: 1%
+}
+
+
+
+#pantallas{
+margin-top: 2%	
+}
+
+.separacion{
+	margin-top: 25%
+}
+
+.resultados{
+font-size: 25px;
+}
+
+.labelprecio{color: #57589f; background-color: transparent; border:#57589f; border-width: 1.5px; border-style: solid; height: 42px; width: 20%; font-size: 15px; border-radius: 7px; text-align: center; vertical-align: middle; padding-top: 3px;}
+
+.sepver{
+	margin-left: 30%;
+}
+
+.btnlista{
+background-color:#d4c9bc; font-size: 16px; border-width: 4px; color:#57589f ; text-decoration: none }
+
+hr { 
+  display: block;
+  border-width: 4px;
+}
+
+.sony{
+margin-top: 15%;
+}
+
+.btnahorra{
+background-color:#9a9efd; font-size: 16px; border-width: 4px; color:#FFFFFF ; text-decoration: none;	
+}
+
+.lg{
+margin-top: 45%;	
+}
+
+.samsung{
+margin-top: 20%;	
+}
+
+#paginas{
+text-align: center;
+margin-top: 5%; 
+margin-bottom: 5%;
+}
+
+#ofertas {
+	background-color:#57589f;
+	color:#f2f2f2;
+	
+}
+.botonsection {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	
+	
+}
+
+#Ofertas {
+	padding: 60px 0;
+	
+}
+
+.formulario2 {width: 187px; height: 30px; background-color: transparent; border-color: #FDFDDF; border: solid #FDFDDF 2px; border-radius: 7px; color:#FDFDDF; font-size: 20px; float: right}
+
+#ofertas h2 {
+	margin-top: 35px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family:"SF Pro Display Medium";
+	font-size: 20px;
+	line-height: 20px;
+	
+}
+#ofertas h3 {
+	margin-top: 40px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	font-family:"SF Pro Display Medium";
+	font-size: 19px;
+	line-height: 20px; float: left
+	}
+#ofertas h4 {
+	margin-top: 13px;
+	margin-bottom: 0px;
+	margin-left: 3px;
+	font-family:"SF Pro Display Medium";
+	font-size: 18px;
+	line-height: 18px;
+	}
+
+#ofertas h5{color: rgba(242,242,242,1.00); float: right}
+#Contacto {
+	background-color:#57589f;
+	color:#f2f2f2;
+	padding-top: 1px; padding-bottom: 40px
+	}
+#Contacto h4 {
+	font-size: 19px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	
+	
+}
+
+#Contacto p {
+	font-size: 14px;
+	text-align:left;
+	margin-left: 0px;
+	margin-bottom: 1px;
+	color: #f2f2f2;
+	
+	
+}
+
+#Contacto a {
+	font-size: 14px;
+	text-align:left;
+	margin-left: 0px;
+	margin-bottom: 1px;
+	color: #f2f2f2;
+	
+	
+}
+#Contacto p:hover{text-decoration: underline; color: #f2f2f2;}
+
+.contacto p {
+	color: #fff;
+}
+
+::placeholder {
+  color: #f2f2f2 ; font-size: 16px; font-style: italic; margin-left: 20px; font-weight: 50; padding-left: 10px; padding-bottom: 3px
+}
+
+#destacadas .list-inline{padding-top: 0px; text-align: center}
+.input {
+	margin-top: 35px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;	
+}
+
+
+.img-tv{
+	padding:100px 0;
+
+	}
+
+#marcas{
+text-align: center;
+font-family:"SF Pro Display Regular";
+margin-top:20px;
+margin-bottom: 2px;
+font-size:25px;
+}
+
+#smart{
+background-color: #d4c9bc;
+padding: 0%
+}
+
+
+
+#pantallas{
+margin-top: 2%	
+}
+
+.separacion{
+	margin-top: 25%
+}
+
+.resultados{
+font-size: 25px;
+}
+
+.labelprecio{color: #57589f; background-color: transparent; border:#57589f; border-width: 1.5px; border-style: solid; height: 30px; width: 180px; font-size: 15px; border-radius: 7px; text-align: center; vertical-align: middle; padding-top: 0px;}
+
+.labelcheckbox {color: #57589f; background-color: transparent; border:#57589f; border-width: 1.5px; border-style: solid; height: 30px; width: 190px}
+
+.sepver{
+	margin-left: 30%;
+}
+
+.btnlista{
+background-color:#d4c9bc; font-size: 16px; border-width: 4px; color:#57589f ; text-decoration: none }
+
+hr { 
+  display: block;
+  border-width: 4px;
+}
+
+.sony{
+margin-top: 15%;
+}
+
+.btnahorra{
+background-color:#9a9efd; font-size: 16px; border-width: 4px; color:#FFFFFF ; text-decoration: none;	
+}
+
+.lg{
+margin-top: 45%;	
+}
+
+.samsung{
+margin-top: 20%;	
+}
+
+#paginas{
+text-align: center;
+margin-top: 5%; 
+margin-bottom: 5%;
+}
+
+
+
+
