@@ -10,8 +10,8 @@ a{
 
 .navbar-light .navbar-nav .nav-link{
 	color:#ffffff;	
-	font-weight:600;
-	 padding-right: 
+	font-weight:600; z-index: 9000
+	 
 }
 .navbar-light .navbar-nav .nav-link:hover{
 	color:#28D1A2;
@@ -38,10 +38,10 @@ a{
 
 .dropdown-menu{
 	background-color:#ffffff;
-	border:0;
+	border:0; z-index: 9200
 }
 .dropdown-menu .dropdown-item{
-	font-weight:300!important;	
+	font-weight:300!important;	z-index: 9010
 }
 .navbar-light .navbar-nav .show .dropdown-menu .dropdown-item{
 	color:#ffffff;
@@ -50,21 +50,21 @@ a{
 .navbar-light .navbar-nav .show .dropdown-menu .dropdown-itema:focus {
   color: #ffffff;
   text-decoration: none;
-  background-color: transparent;
+  background-color: transparent; z-index: 9000
 }
 
 .navbar-light .navbar-toggler{
-	background-color: transparent;
-	border:1px solid #000;
+	background-color: #ffffff;
+	border:1px solid #ffffff;
 }
 .navbar-light .navbar-toggler:hover,
 .navbar-light .navbar-toggler:focus
 {
     background-color: transparent;
-	cursor:pointer;
+	cursor:pointer; z-index: 9000
 }
 .navbar-light .navbar-toggler-icon {
-    background-color: transparent;
+    background-color: transparent; z-index: 9000
 }
 
 .navbar-light .navbar-toggle:hover .icon-bar {

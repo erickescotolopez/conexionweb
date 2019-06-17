@@ -1,0 +1,183 @@
+body{
+	padding-top: 50px;
+	position: relative;
+}
+.firstline{
+	border-top-style: solid;
+	border-color: #57589F;
+	width: 1100px;
+	height: 40px;
+
+}
+.firstline h4{
+	color: #57589F;
+}
+.secondline{
+
+	border-top-style: solid;
+	border-color: #57589F;
+	width: 1100px;
+	height: 40px;
+
+}
+.secondline h4{
+	float: left;
+	margin-right: 10%;
+	color: #57589F;
+}
+.secondline input{
+	float: left;
+	margin-right: 10%;
+	top: 22%;
+	position: relative;
+	border-color: #57589F;
+
+}
+.secondline h5{
+	float: left;
+	margin: 10px;
+	color: #57589F;
+}
+.secondline a{
+	top: 5%;
+	position: relative;
+	background-color: #57589F;
+	border:1px solid #57589F;
+}
+
+#images{
+	float: left;
+	align-items: center;
+}
+.row{
+	border-top-style: solid;
+	border-color: #57589F;
+	width: 1100px;
+}
+.text-center{
+	float: left;
+	margin-right: 43%;
+}
+.cantidad{
+	float: left;
+	margin-right: 14%;
+}
+.price{
+	float: left;
+	margin-right: 100px;
+}
+.products_list{
+	float: left;
+	margin-right: 200px;
+	width: 300px;
+}
+.finalDetails{
+	width: 1100px;
+	height: 160px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #57589F;
+}
+.finalDetails a{
+	float:right;
+	top: 20%;
+	border:1px solid #57589F;
+	position:relative;
+	background-color: #57589F;
+
+}
+.subtotal{
+	border-top-style: solid;
+	border-color: #57589F;
+	width: 1100px;
+	height: 40px;
+
+}
+ .subtotal h5{
+	float:right;
+	margin-right:30px;
+	color: #57589F;
+} 
+
+.col-md-3 select {
+	float: left;
+	top: 40%;
+	right: 45%;
+	position: absolute;
+	width: 50px;
+	height: 30px;
+	/*top: 50%;
+
+	position:relative;
+	
+	border-color:#57589F;*/
+
+}
+.precios{
+	height: 60px;
+	width: 200px;
+	margin: 10px;
+	padding: 10px;
+	right: 10%;
+	position: absolute;
+	float: right;
+}
+.col-md-3 p {
+	float: right;
+	top: 40%;
+	position: relative;
+	margin:2px;
+	right: 10%;
+	color: #57589F;
+}
+#monto{
+	font-size: 26px;
+}
+.col-md-3 h4 {
+	top: 40%;
+	position: relative;
+	overflow: hidden;
+	color: #57589F;
+	margin:15px;
+	/*float: left;
+	top: 40%;
+	position: absolute;
+	/*top: 30%;
+
+	position:relative;
+	color: #57589F;*/
+
+}
+
+.col-md-3 a{
+	float:right;
+	top: 50%;
+	right: 13%;
+	position: absolute;
+	background-color: #57589F;
+	border:1px solid #57589F;
+	margin: 15px;
+	
+
+}
+.col-md-3{
+	border-top-style: solid; 
+ 	border-color: #57589F;
+	/*border:1px solid #A5A5A5;*/
+	height: 200px;
+	width: 1100px;
+}
+
+#images{
+	width: 150px;
+	height: 150px;
+	margin: 10px;
+	padding: 10px;
+	float: left;
+}
+
+
+
+
+
+

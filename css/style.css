@@ -28,8 +28,32 @@ h1{font-weight: 700;}
 
 #ofertasdelasemana h3{margin-top: 2%}
 
+@media (max-width: 435px) 
+{
+	
+	body{text-align: center}
+	
+	.conexion_logo{width: 150px}
+	.lupa{width: 20px}
+	
+	.formulario1 {width: 250px; height: 2%; background-color: transparent; border-color: #FDFDDF; border: solid #FDFDDF 2px; border-radius: 7px; color:#FDFDDF; font-size: 20px; float: right}
+	
+	header{height: 200px}
+	.entraryregistrar{width: 60%; text-align: center; margin: 0px 80px}
+	
+	.carrito{width: 5%; display: none}
+	
+	.btncarrito{color: #ffffff; background-color: transparent; border: #FDFDD; border-width: 1.5px; border-style: solid; height: 10px; width: 50%; font-size: 8px; border-radius: 7px; text-align: center; vertical-align: middle; padding-top: 3px}
+	
+	#ofertas h3 {font-size: 5px; text-align: center}
 
-.carrito{width: 18%; margin: 5% 8% 8% 2%}
+	.inputcustom{width: 200px; text-align: center; margin: 0px 50px}
+	
+}
+
+
+
+.carrito{width: 18%; margin: 2% 8% 8% 2%}
 .img-ofertas{margin-bottom: 3%}
 
 
@@ -72,6 +96,10 @@ header h4{color: #FDFDDF; margin-top: 2px}
 	padding: 10px 0;
 	
 }
+
+.inputcustom{border-color: #57589F; border-width: 1.5px; border-radius: 5px}
+
+.inforeg{padding-top: 50px}
 
 .bordeofertas{
 	border: 1px solid #3c3d6f;
