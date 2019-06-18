@@ -28,22 +28,45 @@ h1{font-weight: 700;}
 
 #ofertasdelasemana h3{margin-top: 2%}
 
+
+@media (min-width: 768px) 
+
+{ .nomostrarenpc{display: none}
+	
+	
+	
+}
 @media (max-width: 435px) 
 {
 	
-	body{text-align: center}
+	.nomostrarencelular{display: none}
+	
+	body{text-align: center !important}
+	
+	#ofertas h3 {
+	margin-bottom: 0px;
+	margin-right: 10px;
+	font-family:"SF Pro Display Medium";
+	font-size: 16px; float: left
+	}
 	
 	.conexion_logo{width: 150px}
 	.lupa{width: 20px}
 	
 	.formulario1 {width: 250px; height: 2%; background-color: transparent; border-color: #FDFDDF; border: solid #FDFDDF 2px; border-radius: 7px; color:#FDFDDF; font-size: 20px; float: right}
 	
+	.colwidth{width: 50%}
+	
 	header{height: 200px}
 	.entraryregistrar{width: 60%; text-align: center; margin: 0px 80px}
 	
 	.carrito{width: 5%; display: none}
 	
+	.menustyle{background-image: linear-gradient(to right, #3c3d6f, #414278, #464781, #4b4c8a, #505193, #555699, #5a5b9e, #5f60a4, #6566a8, #6b6cab, #7273af, #7879b2); align-content: center; color:#FFFFFF; display: flex; justify-content: center; align-items: center; text-decoration: none; padding: 20px 0px}
+	
 	.btncarrito{color: #ffffff; background-color: transparent; border: #FDFDD; border-width: 1.5px; border-style: solid; height: 10px; width: 50%; font-size: 8px; border-radius: 7px; text-align: center; vertical-align: middle; padding-top: 3px}
+	
+	#ofertas .list-inline{margin: 0px 0px}
 	
 	#ofertas h3 {
 	margin-top: 40px;
@@ -51,12 +74,31 @@ h1{font-weight: 700;}
 	margin-right: 10px;
 	font-size: 8px;
 	}
+	
+	.inputblock{display: block}
 
-	.inputcustom{width: 200px; text-align: center; margin: 0px 50px}
+	.inputcustom{width: 100%; text-align: center}
 	
-	.formulario2 .input {width: 100%; height: 5%; background-color: transparent; border-color: #FDFDDF; border: solid #FDFDDF 2px; border-radius: 7px; color:#FDFDDF; font-size: 20px; margin-left: 0px }
+	#inforegistro h3 {margin: 100px 0px}
 	
+	.formmargin{margin-top: 10px}
 	
+	#marcasdestacadas h2{
+	margin-top: 10px;
+	margin-bottom:10px;
+	font-family:"SF Pro Display Medium";
+	font-size: 25px;
+	line-height: 20px;
+	
+}
+
+	.imgfooter {margin-top: 20px; width: 300px}
+	
+	footer .img{margin-bottom: 50px}
+	
+	#marcasdestacadas .img-fluid{margin: 20px 50px; width: 40%}
+	#ofertasdelasemana .img-fluid{padding: 10px}
+	#destacados h5{margin-bottom: 40px}
 }
 
 @media (max-width: 768px){
@@ -64,6 +106,10 @@ h1{font-weight: 700;}
 	.formulario1 {width: 150px; height: 2%; background-color: transparent; border-color: #FDFDDF; border: solid #FDFDDF 2px; border-radius: 7px; color:#FDFDDF; font-size: 20px; float: right}
 	
 	.iconosmarcastablet{display: none}
+	
+	.imgfooter {width: 150px}
+	
+	#contacto img{width: 150px}
 	
 	.input .formulario2 {
 	margin-top: 35px;
@@ -125,6 +171,10 @@ header h4{color: #FDFDDF; margin-top: 2px}
 
 .inforeg{padding-top: 50px}
 
+
+#Boton {margin: 40px 0px}
+
+#inforegistro {margin: 50px 0px}
 .bordeofertas{
 	border: 1px solid #3c3d6f;
 	border-radius: 5px;
