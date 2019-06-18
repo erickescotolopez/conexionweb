@@ -27,7 +27,7 @@ header p{font-size: 15px; margin-top: 6px}
 
 .entraryregistrar{padding: 4% 2%}
 
-.formulario1 {width: 260px; height: 3%; background-color: transparent; border-color: #FDFDDF; border: solid #FDFDDF 2px; border-radius: 7px; color:#FDFDDF; font-size: 20px; float: right}
+.formulario1 {width: 260px; height: 3%; background-color: transparent; border-color: #FDFDDF; border: solid #FDFDDF 2px; border-radius: 7px; color:#FDFDDF; font-size: 20px; float: right; margin-top: 15px}
 
 
 #ofertasdelasemana h3{margin-top: 2%}
@@ -78,7 +78,7 @@ header p{font-size: 15px; margin-top: 6px}
 	
 	.btncarrito{color: #ffffff; background-color: transparent; border: #FDFDD; border-width: 1.5px; border-style: solid; height: 5px; width: 100%; font-size: 8px; border-radius: 7px; text-align: center; vertical-align: middle; padding-top: 3px}
 	
-	#ofertas .list-inline{margin: 0px 0px}
+	#ofertas .list-inline{margin: 0px 0px 0px 0px}
 	
 	#ofertas h3 {
 	margin-top: 40px;
@@ -86,6 +86,8 @@ header p{font-size: 15px; margin-top: 6px}
 	margin-right: 10px;
 	font-size: 8px;
 	}
+	
+	#ofertas h5 {margin-right: 15px}
 	
 	.inputblock{display: block}
 
@@ -115,7 +117,7 @@ header p{font-size: 15px; margin-top: 6px}
 
 @media (max-width: 768px){
 	
-	.formulario1 {width: 150px; height: 2%; background-color: transparent; border-color: #FDFDDF; border: solid #FDFDDF 2px; border-radius: 7px; color:#FDFDDF; font-size: 20px; float: right}
+	.formulario1 {width: 150px; height: 5%; background-color: transparent; border-color: #FDFDDF; border: solid #FDFDDF 2px; border-radius: 7px; color:#FDFDDF; font-size: 20px; float: right}
 	
 	header p{font-size: 12px}
 	
@@ -188,6 +190,8 @@ header h4{color: #FDFDDF; margin-top: 2px}
 
 
 #Boton {margin: 40px 0px}
+
+#contactar{margin: 50px 0px}
 
 #inforegistro {margin: 50px 0px}
 .bordeofertas{
@@ -270,7 +274,7 @@ h1{font-weight: 700}
 	font-size: 16px; float: left
 	}
 #ofertas h5 {
-	margin-top: 11px;
+	margin-top: 38px;
 	margin-bottom: 0px;
 	margin-left: 10px;
 	font-family:"SF Pro Display Medium";
@@ -426,10 +430,7 @@ margin-bottom: 5%;
 	
 }
 
-#Ofertas {
-	padding: 60px 0;
-	
-}
+
 
 .formulario2 {width: 187px; height: 30px; background-color: transparent; border-color: #FDFDDF; border: solid #FDFDDF 2px; border-radius: 7px; color:#FDFDDF; font-size: 20px; float: right}
 
