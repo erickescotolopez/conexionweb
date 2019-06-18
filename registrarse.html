@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Formulario</title>
 <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -16,32 +17,31 @@
 </head>
 
 <body>
- <header>
-	 		<header>
+ 
+	<header>
 	<div class="container">
 				<div class="row">
-		<article class="col-md-3 col-sm-4 col-xs-12 alineado">
+		<article class="col-md-3 col-sm-4 col-xs-6 alineado colwidth">
 			<a href="index.html"><img class="conexion_logo" src="img/header/Recurso 5@3x.png" alt="logo_conexion"></a>
 			</article>
 					
-					
-	<article class="col-md-4 col-sm-4 col-xs-6 buscador alineado">
-		  <img class="lupa" src="img/header/lupa_buscar@3x.png" alt="buscar">
+		<article class="col-md-4 col-sm-6 buscador alineado colwidth">
+		<i class="fas fa-search iconc"></i>
 			<form>
 				<input class="formulario1" placeholder="Televisores, celulares, refrigeradoras...">
 </form>
 			</article>
 				
-		<article class="col-md-3 col-sm-6 col-xs-6 entraryregistrar alineado">
-			<img src="img/header/user_icono@3x.png" alt="user" class="usericon">
+		<article class="col-md-3 col-sm-6 colwidth entraryregistrar alineado">
+			<i class="fas fa-user iconc"></i>
 
 	<a href="#" style="float: left"><h4>Entrar</h4></a>
     <div class="vl"></div>
-	<a href="registrarse.html"><h4>Registrate</h4></a>
+	<h4><a class="active" href="registrarse.html">Registrate</a></h4>
 			</article>
 					
 			<article class="col-md-2 col-sm-6 col-xs-6 alineado">
-			<a href="#" class="btncarrito btn-light"><img class="carrito" src="img/header/shopping_cart@3x.png" alt="carritodecompra">Ver Carrito </a> </article>
+			<a href="#" class="btncarrito btn-light"><img class="carrito iconosmarcastablet" src="img/header/shopping_cart@3x.png" alt="carritodecompra"><p>Ver Carrito </p> </a> </article>
 					
 		</div>
 		</div>
@@ -49,16 +49,15 @@
 	
 		
 	</header>
-<section id="menu" class="menustyle">
-	<div class="container-fluid"> 
-	
-	<nav class="navbar navbar-expand-lg navbar-light">
+	<section id="menu" class="menustyle">
+	<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-light">
  
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse texto m-6" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse texto" id="navbarSupportedContent">
     <ul class="navbar-nav mx-auto">
       <li class="nav-item">
         <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
@@ -88,63 +87,122 @@
 		</div>
 	
 	
-	</section>
+	</section> 		
+
 	
 
- </header>
-	
-	<section id="inforegistro">
-	<div class="container">
-	<h3>Información de registro</h3>
-	</div>
-		</section>
+
+
 		
 <section id="registro">
 <div class="container">
 	<div class="row">
 	<article class="col-md-6 col-sm-12">
+			<section id="inforegistro">
+	<div class="container">
+	<h3>Información de registro</h3>
+	</div>
+		</section>
 		<form id="form" name="form" action="" method="post">
+			<div class="form">
 			
+				<input type="text" id="nombre" name="nombre" class="form-control inputcustom inputblock " placeholder="Nombre Completo">
+			
+			</div>
+			
+			<div class="form">
+			
+				<input type="text" id="nombre" name="nombre" class="form-control inputcustom inputblock " placeholder="Número de Identidad">
+			
+			</div>
 			
 			
 			<div class="row">
 			<div class="form-group col-md-6 col-sm-12">
-			
-				<input type="text" id="nombre" name="nombre" class="form-control inputcustom inputblock " placeholder="Nombre">
+			<label>Departamento</label>
+				<select id="subject" name="subject" class="form-control inputcustom inputblock" placeholder="Número de Identidad">
+				<option value="Atántida">Atántida</option>
+				<option value="Colón">Colón</option>
+				<option value="Comayagua">Comayagua</option>
+				<option value="Copán">Copán</option>
+				<option value="Cortés">Cortés</option>
+				<option value="	Choluteca">Choluteca</option>
+				<option value="El Paraíso">El Paraíso</option>
+				<option value="	Francisco Morazán">Francisco Morazán</option>
+				<option value="Gracias a Dios">Gracias a Dios</option>
+				<option value="Intibucá">Intibucá</option>
+				<option value="Islas de la Bahía">Islas de la Bahía</option>
+				<option value="La Paz">La Paz</option>
+				<option value="	Lempira">Lempira</option>
+				<option value="Ocotepeque">Ocotepeque</option>
+				<option value="Olancho">Olancho</option>
+				<option value="	Santa Bárbara">Santa Bárbara</option>
+				<option value="	Valle">	Valle</option>
+				<option value="Yoro">Yoro</option>
+				</select>
+				
 			
 			</div>
 			<div class="form-group col-md-6 col-sm-12">
-				<input type="email" id="email" name="email" class="form-control inputcustom"  placeholder="E-mail">
-			
-			
-			
-			</div>
-			</div>
-			
-			
-			<div class="form-group">
-			<select id="subject" name="subject" class="form-control inputcustom inputblock">
-				<option value="consulta">Consulta</option>
-				<option value="info">Información</option>
-				<option value="queja">Queja o Reclamo</option>
+			<label>Municipio</label>
+				<select id="subject" name="subject" class="form-control inputcustom inputblock" placeholder="Número de Identidad">
+				<option value="Distrito Central">Distrito Central</option>
+				<option value="	Talanga">Talanga</option>
+				<option value="Cantarranas">Cantarranas</option>
+				<option value="Valle de Ángeles">Valle de Ángeles</option>
+				<option value="Santa Lucía">Santa Lucía</option>
 				
 				</select>
+				
+			
+			</div>
+			</div>
+			
+			<div class="row">
+			<div class="form-group col-md-6">
+			
+				<input type="text" id="nombre" name="nombre" class="form-control inputcustom" placeholder="Colonia">
+			
+			</div>
+			<div class="form-group col-md-6">
+				<input type="email" id="email" name="email" class="form-control inputcustom"  placeholder="Calle">
 			
 			
 			
 			</div>
+			</div>
 			
-			<div class="form-group">
-			<textarea id="message" name="mensaje" class="form-control inputcustom" placeholder="Mensaje" rows="8"></textarea>
+			<div class="row">
+			<div class="form-group col-md-6">
 			
+				<input type="text" id="nombre" name="nombre" class="form-control inputcustom" placeholder="Número de casa">
+			
+			</div>
+			<div class="form-group col-md-6">
+				<input type="text" id="text" name="email" class="form-control inputcustom"  placeholder="Referencia">
 			
 			
 			
 			</div>
-			<div class="form group">
-		
+			</div>
+			
+			<div class="row">
+			<div class="form-group col-md-6">
+			
+				<input type="tel" id="nombre" name="nombre" class="form-control inputcustom" placeholder="Teléfono 1">
+			
+			</div>
+			<div class="form-group col-md-6">
+				<input type="tel" id="text" name="email" class="form-control inputcustom"  placeholder="Teléfono 2">
 			
 			
+			
+			</div>
+			</div>
+			
+			<div class="form">
+			
+				<input type="email" id="nombre" name="nombre" class="form-control inputcustom inputblock " placeholder="Correo Electrónico">
 			
 			</div>
 			
@@ -152,8 +210,85 @@
 			
 		</form>
 		</article>
-</div>
-	</div>	
+<article class="col-md-6 col-sm-12">
+			<section id="inforegistro">
+	<div class="container">
+	<h3>Información de pago</h3>
+	</div>
+		</section>
+		<form id="form" name="form" action="" method="post">
+			<div class="form">
+			
+				<input type="text" id="nombre" name="nombre" class="form-control inputcustom inputblock " placeholder="Nombre del propietario de tarjeta">
+			
+			</div>
+			
+			<div class="form">
+			
+				<input type="text" id="nombre" name="nombre" class="form-control inputcustom inputblock " placeholder="Número de Tarjeta">
+			
+			</div>
+	
+			<div class="row">
+			<div class="form-group col-md-6">
+			
+				<input type="text" id="nombre" name="nombre" class="form-control inputcustom" placeholder="CCV">
+			
+			</div>
+			<div class="form-group col-md-6">
+				<input type="email" id="email" name="email" class="form-control inputcustom"  placeholder="RTN">
+			
+			
+			
+			</div>
+			
+				<div class="form-group col-md-6 col-sm-12">
+			<label>Mes</label>
+				<select id="subject" name="subject" class="form-control inputcustom inputblock" placeholder="Número de Identidad">
+				<option value="Atántida">1</option>
+				<option value="Colón">2</option>
+				<option value="Comayagua">3</option>
+				<option value="Copán">4</option>
+				<option value="Cortés">5</option>
+				<option value="	Choluteca">6</option>
+				<option value="El Paraíso">7</option>
+				<option value="	Francisco Morazán">8</option>
+				<option value="Gracias a Dios">9</option>
+				<option value="Intibucá">10</option>
+				<option value="Islas de la Bahía">11</option>
+				<option value="La Paz">12</option>
+				
+				</select>
+				
+			
+			</div>
+			<div class="form-group col-md-6 col-sm-12">
+			<label>Año</label>
+				<select id="subject" name="subject" class="form-control inputcustom inputblock" placeholder="Número de Identidad">
+				<option value="Atántida">2019</option>
+				<option value="Colón">2020</option>
+				<option value="Comayagua">2021</option>
+				<option value="Copán">2022</option>
+				<option value="Cortés">2023</option>
+				<option value="	Choluteca">2024</option>
+				<option value="El Paraíso">2025</option>
+				
+				</select>
+			</div>
+				<img src="img/Recurso 96@1.5x.png" width="90%" height="90%" class="text-center imgpago">
+			
+			
+			
+			
+			
+			
+			
+			
+		</form>
+		
+			
+			
+		</article>
 		
 	</section>
 <section id="Boton">
