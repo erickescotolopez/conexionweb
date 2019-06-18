@@ -9,36 +9,37 @@
 <title>Contacto - ConexiÓN</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">	
 </head>
 
 <body>
-		<header>
+		
+<header> 
 	<div class="container">
 				<div class="row">
-		<article class="col-md-3 col-sm-4 col-xs-12 alineado">
+		<article class="col-md-3 col-sm-4 col-xs-6 alineado colwidth">
 			<a href="index.html"><img class="conexion_logo" src="img/header/Recurso 5@3x.png" alt="logo_conexion"></a>
 			</article>
 					
-					
-	<article class="col-md-4 col-sm-6 buscador alineado">
-		  <img class="lupa" src="img/header/lupa_buscar@3x.png" alt="buscar">
+		<article class="col-md-4 col-sm-6 buscador alineado colwidth">
+		<i class="fas fa-search iconc"></i>
 			<form>
 				<input class="formulario1" placeholder="Televisores, celulares, refrigeradoras...">
 </form>
 			</article>
 				
-		<article class="col-md-3 col-sm-6 col-xs-6 entraryregistrar alineado">
-			<img src="img/header/user_icono@3x.png" alt="user" class="usericon">
+		<article class="col-md-3 col-sm-6 colwidth entraryregistrar alineado">
+			<i class="fas fa-user iconc"></i>
 
 	<a href="#" style="float: left"><h4>Entrar</h4></a>
     <div class="vl"></div>
-	<a href="#"><h4>Registrate</h4></a>
+	<h4><a href="registrarse.html">Registrate</a></h4>
 			</article>
 					
 			<article class="col-md-2 col-sm-6 col-xs-6 alineado">
-			<a href="#" class="btncarrito btn-light"><img class="carrito" src="img/header/shopping_cart@3x.png" alt="carritodecompra">Ver Carrito </a> </article>
+			<a href="#" class="btncarrito btn-light"><img class="carrito iconosmarcastablet" src="img/header/shopping_cart@3x.png" alt="carritodecompra"><p>Ver Carrito </p> </a> </article>
 					
 		</div>
 		</div>
@@ -46,10 +47,9 @@
 	
 		
 	</header>
-<section id="menu" class="menustyle">
-	<div class="container-fluid"> 
-	
-	<nav class="navbar navbar-expand-lg navbar-light">
+	<section id="menu" class="menustyle">
+	<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-light">
  
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -57,7 +57,7 @@
 
   <div class="collapse navbar-collapse texto" id="navbarSupportedContent">
     <ul class="navbar-nav mx-auto">
-      <li class="nav-item">
+      <li class="nav-item ">
         <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
       </li>
 		<li class="nav-item">
@@ -110,11 +110,11 @@
 			<div class="row">
 			<div class="form-group col-md-6">
 			
-				<input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre">
+				<input type="text" id="nombre" name="nombre" class="form-control inputcustom" placeholder="Nombre">
 			
 			</div>
 			<div class="form-group col-md-6">
-				<input type="email" id="email" name="email" class="form-control"  placeholder="E-mail">
+				<input type="email" id="email" name="email" class="form-control inputcustom"  placeholder="E-mail">
 			
 			
 			
@@ -123,7 +123,7 @@
 			
 			
 			<div class="form-group">
-			<select id="subject" name="subject" class="form-control">
+			<select id="subject" name="subject" class="form-control inputcustom">
 				<option value="consulta">Consulta</option>
 				<option value="info">Información</option>
 				<option value="queja">Queja o Reclamo</option>
@@ -135,7 +135,7 @@
 			</div>
 			
 			<div class="form-group">
-			<textarea id="message" name="mensaje" class="form-control" placeholder="Mensaje" rows="8"></textarea>
+			<textarea id="message" name="mensaje" class="form-control inputcustom" placeholder="Mensaje" rows="8"></textarea>
 			
 			
 			
@@ -176,7 +176,7 @@
 	<div class="row">
 	
 	<article class="col-md-6 col-sm-6 col-xs-12">
-	<h3 class="float-left">No te pierdas nuestras ofertas</h3>
+	<h3>No te pierdas nuestras ofertas</h3>
 		<form>
 				<input class="input formulario2" placeholder="Correo Electrónico">
 			</form>
@@ -237,9 +237,8 @@
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d072b617f590051"></script>
 	<script src="js/gmaps.js"></script>
 	<script>
  
